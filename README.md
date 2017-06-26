@@ -12,7 +12,7 @@
 只为大家更简单更方便的集成定位sdk，**我会不定时更新定位sdk**。[点击查看原理](/amap.md)
 
 # Demo
-[点击下载](/app-debug.apk)
+[点击下载](/screenshot/app-debug.apk)
 
 # 使用
 
@@ -91,6 +91,13 @@ HiLocation.with(MainActivity.this).stop();
 
 
 当然，为了保证我们在使用权限的时候没有后顾之忧，建议大家在每次启动app的时候申请一些常用权限，详情可以看[HiPermission](https://github.com/yewei02538/HiPermission)
+
+# 调用次数限制
+
+当然是无限制啦，[官方调用次数说明](http://lbs.amap.com/faq/account/authority/flowlevel)
+
+![](/screenshot/QQ截图20170626152610.png)
+
 
 # 最后
 
